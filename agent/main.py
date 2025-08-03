@@ -10,7 +10,7 @@ def run_agent():
 
     # Simulate LLM understanding and routing logic
     if "capital" in task["objective"]:
-        part1 = search("capital of France")
+        part1 = search("what is the capital of France")
         part2 = evaluate_math("3*7")
         print(f"Answer: {part1} + {part2}")
     else:
